@@ -1,0 +1,30 @@
+#code {
+  border-radius: 5px;
+  width:750px;
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #ccc;
+  height: 800px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size:13px;
+  color: #fafafa;
+}
+
+#console {
+  width:725px;
+  padding: 20px;
+  height: 770px;
+  margin:0 auto;
+  background: #383737;
+}
+
+/*#code, #console {
+    width: 100%;
+    overflow: hidden;
+  }
+*/
+span.answer {
+  color:#ccc;
+}
