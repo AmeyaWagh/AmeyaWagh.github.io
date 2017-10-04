@@ -14,6 +14,14 @@
 		<link rel="stylesheet" href="assets/css/codeconsole.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="assets/css/customw3.css">
+
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 	</head>
 	<body>
 
@@ -192,10 +200,48 @@
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/mitmedialabs.jpg" alt="" /></a>
+										<a href="#" class="image fit" data-toggle="modal" data-target="#myModal" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"><img src="images/mitmedialabs.jpg" alt="" /></a>
 										<header>
 											<h3>ELECTRONIC TABLA (MIT MEDIA LABS-DESIGN INNOVATION INDIA) </h3>
 										</header>
+										
+										<div class="w3-container">  
+										  <div id="id01" class="w3-modal">
+										    <div class="w3-modal-content">
+										      <div class="w3-container">
+										        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+										        <p>Design Innovation is an initiative by MIT Media Labs to encourage innovation. I was part of Sensors across scale track where I teamed up to build Electronics Table also know as TAAL. Unlike any other musical instruments a traditional tabla did not undergo any revolution. So we decided to add some modern technology to it. We interfaced capacitive touch sensors to the frame of tabla and those were interfaced over arduino to a sound processing software ABLETON over arduino midi interface. We implemented various filters on the sound coming from tabla so to add a new dimention to it.</p>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+
+										<!-- Modal -->
+										<!-- <div> -->
+										<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<!-- 
+										    <div class="modal fade" id="myModal" role="dialog">
+										    <div class="modal-dialog"> -->
+										    
+										      <!-- Modal content-->
+										      <!-- <div class="modal-content">
+										        <div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+										          <h4 class="modal-title">ELECTRONIC TABLA (MIT MEDIA LABS-DESIGN INNOVATION INDIA JAN 2015)</h4>
+										        </div>
+										        <div class="modal-body">
+										          <p>Design Innovation is an initiative by MIT Media Labs to encourage innovation. I was part of Sensors across scale track where I teamed up to build Electronics Table also know as TAAL. Unlike any other musical instruments a traditional tabla did not undergo any revolution. So we decided to add some modern technology to it. We interfaced capacitive touch sensors to the frame of tabla and those were interfaced over arduino to a sound processing software ABLETON over arduino midi interface. We implemented various filters on the sound coming from tabla so to add a new dimention to it.</p>
+										        </div>
+										        <div class="modal-footer">
+										          <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+									        </div> -->
+									        <!-- </div> -->
+										      
+										    <!-- </div>
+										</div> -->
+										<!-- Modal closed -->
+
+
 									</article>
 								</div>
 								<div class="4u$ 12u$(mobile)">
@@ -232,8 +278,8 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Contact me on </p>
 							<hr/>
+							<p>Contact me on </p>
 							<ul class="icons">
 								<li><a href="https://www.facebook.com/ameya.wagh" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
@@ -288,6 +334,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
