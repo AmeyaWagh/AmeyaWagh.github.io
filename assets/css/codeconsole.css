@@ -2,24 +2,39 @@
   border-radius: 5px;
   width:750px;
   margin: 0 auto;
-  padding-top:15px;
+  padding-top:0px;
   font-size:30px;
   background: #ccc;
-  height: 800px;
+  height: 1060px;
   font-family: 'Monaco', 'Courier New';
-  text-align: left;
+  text-align: center;
   font-size:13px;
   color: #fafafa;
+  /*color:black;*/
 }
 
 #console {
   width:725px;
   padding: 20px;
-  height: 770px;
+  height: 1000px;
   margin:0 auto;
   background: #383737;
+  text-align: left;
 }
 
+
+#codetoolbar {
+  font-size: 20px;
+  /*text-align: left;*/
+  color:#383737;
+}
+
+
+#codetitle {
+  text-align: center;
+  color:black;
+  font-size:20px;
+}
 /*#code, #console {
     width: 100%;
     overflow: hidden;
@@ -28,3 +43,4 @@
 span.answer {
   color:#ccc;
 }
+
