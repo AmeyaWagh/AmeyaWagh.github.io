@@ -11,8 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/customw3.css">
+		<link rel="stylesheet" href="../assets/css/codeconsole.css" />
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	</head>
 	<body>
 		<!-- Header -->
@@ -81,20 +87,33 @@
 						<h2>WHRL-WPI Humanoid Robotics Lab</h2>
 					</header>
 
-					<p>.</p>
+					<p>Check out WHRL website <a href="http://ecewp.ece.wpi.edu/wordpress/whrl/">WHRL</a></p>
 
 					<div class="row">
 
 						<div class="4u 12u$(mobile)">
 							<article class="item">
-								<a href="#" class="image fit"><img src="../images/atlas.jpg" alt="" /></a>
+								<a href="#" class="image fit" data-toggle="modal" data-target="#myModal" onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-black"><img src="../images/atlas.jpg" alt="" /></a>
 									<!-- <p>hello world fawekjahlkjdhflasjfhkdjhfalksjdfhlakfdsh</p> -->
 								<header>
 									<h3>Robot POV-(ongoing)</h3>
 								</header>
-								<p>
-								I am responsible to get the Multisense data from ATLAS Robot and visualisation and display it on Oculus Rift. The implementation is in ROS and CPP   
-							</p>
+								<!-- Modal -->
+										<div class="w3-container">  
+										  <div id="id05" class="w3-modal">
+										    <div class="w3-modal-content">
+										      <div class="w3-container">
+										        <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+										        <!-- <span class="icon fa-times-rectangle" aria-hidden="true"></span> -->
+										        <p>
+												I am responsible to get the Multisense data from ATLAS Robot and visualisation and display it on Oculus Rift. The implementation is in ROS and CPP   
+												</p>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+								<!-- Modal closed -->
+								
 							</article>
 						</div>
 						
@@ -104,6 +123,25 @@
 			</section>
 
 		</div>
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Ameya Wagh Portfolio. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
