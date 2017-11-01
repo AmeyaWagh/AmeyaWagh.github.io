@@ -6,7 +6,7 @@
   font-size:30px;
   background: #ccc;
   /*background: #383737;*/
-  height: 1060px;
+  height: 1260px;
   font-family: 'Monaco', 'Courier New';
   text-align: left;
   font-size:13px;
@@ -19,7 +19,7 @@
 #console {
   width:725px;
   padding: 20px;
-  height: 1000px;
+  height: 1200px;
   margin:0 auto;
   /*background: #383737;*/
   background: #212528;
