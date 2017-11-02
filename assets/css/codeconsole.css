@@ -17,12 +17,12 @@
 
 
 #console {
-  width:725px;
-  padding: 20px;
+  width:735px;
+  padding:20px;
   height: 1200px;
   margin:0 auto;
-  /*background: #383737;*/
-  background: #212528;
+  background: #21242a;
+  /*background: #212528;*/
   text-align: left;
 }
 
