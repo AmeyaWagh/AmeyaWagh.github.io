@@ -132,6 +132,7 @@
 								</span>
 								<span class="icon fa-terminal" id="codetoolbar"> Terminal</span>
 								<div id="console">
+									<div>
 									&gt;&gt;&gt; from Robotics import Roboticists<br />
 									&gt;&gt;&gt; ameya = Roboticist(find="Ameya Wagh")<br/>
 									
@@ -154,13 +155,29 @@
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duration:"June16-July17"<br/>
 											&nbsp;&nbsp;&nbsp;}
 											<br/><br/></span>
-									&gt;&gt;&gt; ameya.researchInterest<br/>
-										<span class="answer">&nbsp;&nbsp;[<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Computer Vision",<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Artificial Intelligence", <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Machine Learning",<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Deep Learning",<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Reinforcement Learning"<br/>&nbsp;&nbsp;&nbsp;]<br/><br/></span>
 
+									&gt;&gt;&gt; ameya.researchInterest<br/>
+										<span class="answer">&nbsp;&nbsp;[
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Computer Vision",
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Robot Perception using 3D point cloud",
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+											{
+												"Artificial Intelligence":[
+												<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Search Methods",
+												<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Machine Learning", 
+												<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Deep Learning",
+												<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Deep Reinforcement Learning"]
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+											<br/>&nbsp;&nbsp;&nbsp;]<br/><br/></span>
+
+									</div>
+									<!-- <div id="console_text" >
+										console_text
+									</div> -->
 								</div>
 							</div><br/>
 							
-							<p>I am a highly passion driven engineer currently pursuing Ms in Robotics at WPI. I have a Bachelors degree in Electronics and Telecommunication from University of Mumbai and have been constantly associated with robotics competitions like ABU Robocon and Eyantra for most of my undergraduate term. I am skilled at embedded systems and robotics with a strong hold on Python, C, C++ and Matlab. My research interests include Robot perception and Artificial Intelligence.</p>
+							<p id="about_me">about_me</p>
 
 						</div>
 					</section>
@@ -385,9 +402,11 @@
 			<script src="assets/js/main.js"></script>
 			
 
-			<script src="assets/js/typed.js"></script>
-			<script src="assets/js/terminalType.js"></script>
+			<!-- <script src="assets/js/typed.js"></script> -->
+			<!-- <script src="assets/js/terminalType.js"></script> -->
 
-
+			<!-- # Custom JS for text rendering  -->
+			<script src="assets/js/about_me.js"></script>
+			<!-- <script src="assets/js/console_text.js"></script> -->
 	</body>
 </html>
