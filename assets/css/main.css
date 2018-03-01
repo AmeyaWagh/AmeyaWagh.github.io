@@ -1901,10 +1901,12 @@
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;
-		color: #fff !important;
+		/*color: #fff !important;*/
+		color: #222729 !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		/*background-color: #8ebebc;*/
+		background-color: #eee;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1922,7 +1924,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			/*background-color: #9ececc;*/
+			background-color: #cee;
 		}
 
 		input[type="button"]:active,
@@ -2183,8 +2186,10 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				/*background-color: #81918E;*/
+				background-color: #7F7F7F;
 				background-image: url("../../images/banner.jpg");
+				/*background-image: url("../../images/white.jpeg");*/
 				/*background-image: url("../../images/banner4.jpg");*/
 			}
 
