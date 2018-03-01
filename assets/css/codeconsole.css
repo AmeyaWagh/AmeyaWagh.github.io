@@ -20,6 +20,11 @@
   width:735px;
   padding:20px;
   height: 1420px;
+  
+  /*width: auto;*/
+  /*padding:20px;*/
+  /*height: auto;*/
+
   margin:0 auto;
   background: #21242a;
   /*background: #212528;*/
@@ -31,6 +36,7 @@
   font-size: 25px;
   text-align: center;
   padding-left: 220px;
+  /*padding-left: auto;*/
   color:#383737;
 }
 
@@ -46,7 +52,7 @@
   }
 */
 span.answer {
-  color:#ccc;
+  color:#bbb;
 }
 
 span.menubar {
