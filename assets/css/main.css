@@ -2188,7 +2188,8 @@
 			#main > section.one {
 				/*background-color: #81918E;*/
 				background-color: #7F7F7F;
-				background-image: url("../../images/banner.jpg");
+				/*background-image: url("../../images/banner.jpg");*/
+				background-image: url("../../images/pcd_banner.png");
 				/*background-image: url("../../images/white.jpeg");*/
 				/*background-image: url("../../images/banner4.jpg");*/
 			}
