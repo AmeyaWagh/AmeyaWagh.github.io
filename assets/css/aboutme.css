@@ -1,0 +1,63 @@
+.aboutme-container{
+
+	line-height: normal;
+	text-align: left;
+	font-size: 20px;
+}
+.job-header{
+	width :100%;
+
+}
+.job-company-name{
+	font-style: initial;
+	font-weight: 500;
+}
+.job-title{
+	width: 60%;
+	float: left;
+	font-style: initial;
+	font-weight: bold;
+	display: inline-block;
+}
+.job-date{
+	position: relative;
+	width: 40%;
+	float: right;
+	text-align: right;	
+	font-style: italic;
+	display: inline-block;
+}
+.job-location{
+	font-style: italic;
+	/*display: inline-block;*/
+}
+.job-description{
+	list-style: circle;
+	padding-left: 2%;
+}
+
+
+.education-header{
+	width :100%;
+}
+
+.education-university{
+	width: 60%;
+	float: left;
+	text-align: left;
+	font-style: initial;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.education-date{
+	width: 40%;
+	float: right;
+	text-align: right;
+	font-style: italic;
+	display: inline-block;
+}
+
+.education-summary{
+	font-style: initial;
+}
