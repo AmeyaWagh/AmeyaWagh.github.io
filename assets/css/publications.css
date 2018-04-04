@@ -1,0 +1,37 @@
+.publicationscontainer{
+	text-align:left;
+}
+
+.papercontainer{
+	/*margin: 2px;*/
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.publication-title{
+	font-size: 20px;
+	font-weight: 500;
+	/*margin-bottom: 1px;*/
+}
+
+.publication-authors{
+  font-style: italic;
+  /*margin-bottom: 1px;*/
+}
+
+
+.publication-conference{
+	font-style: initial;
+  	/*margin-bottom: 1px;*/
+}
+
+.publication-link{
+	/*color: green;*/
+	font-style: italic;
+  	/*margin-bottom: 1px;*/
+}
+.publication-citations{
+	font-style: initial;
+	font-weight: 200;
+}
