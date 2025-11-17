@@ -1,0 +1,64 @@
+name: Update Publications from Google Scholar
+
+on:
+  # Run weekly on Mondays at 9am UTC
+  schedule:
+    - cron: '0 9 * * 1'
+
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: redesign  # Update the redesign branch
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch publications from Google Scholar
+        run: |
+          python3 scripts/fetch_publications.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet assets/data/publications.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/data/publications.json
+          git commit -m "Auto-update publications from Google Scholar [skip ci]"
+          git push
+
+      - name: Create summary
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          echo "✅ Publications updated successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The publications.json file has been updated with the latest data from Google Scholar." >> $GITHUB_STEP_SUMMARY
+
+      - name: No changes summary
+        if: steps.check_changes.outputs.changed == 'false'
+        run: |
+          echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Publications are already up to date." >> $GITHUB_STEP_SUMMARY

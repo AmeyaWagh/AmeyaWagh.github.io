@@ -36,43 +36,36 @@ git commit -m "Update publications"
 git push
 ```
 
-### Option 2: GitHub Actions (Automated)
-Create `.github/workflows/update-publications.yml`:
+### Option 2: GitHub Actions (Automated) ✅ **ALREADY CONFIGURED**
 
+The workflow is already set up at `.github/workflows/update-publications.yml`
+
+**How it works:**
+- ✅ Runs automatically every **Monday at 9am UTC**
+- ✅ Can be triggered **manually** from the Actions tab
+- ✅ Fetches publications from Google Scholar
+- ✅ Commits and pushes changes if publications are updated
+- ✅ Provides a summary of what changed
+
+**To trigger manually:**
+1. Go to your repository on GitHub
+2. Click on the **Actions** tab
+3. Select **"Update Publications from Google Scholar"** workflow
+4. Click **"Run workflow"** button
+5. Select the branch (usually `redesign`)
+6. Click **"Run workflow"**
+
+**To change the schedule:**
+Edit `.github/workflows/update-publications.yml` and modify the cron expression:
 ```yaml
-name: Update Publications
-
-on:
-  schedule:
-    # Run weekly on Mondays at 9am UTC
-    - cron: '0 9 * * 1'
-  workflow_dispatch:  # Allow manual trigger
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
-
-      - name: Fetch publications
-        run: python scripts/fetch_publications.py
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add assets/data/publications.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update publications from Google Scholar"
-          git push
+schedule:
+  - cron: '0 9 * * 1'  # Every Monday at 9am UTC
 ```
+
+Common schedules:
+- Daily: `'0 9 * * *'`
+- Weekly (Monday): `'0 9 * * 1'`
+- Monthly (1st): `'0 9 1 * *'`
 
 ## Configuration
 
