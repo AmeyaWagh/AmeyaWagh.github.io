@@ -1,0 +1,2 @@
+# Python dependencies for fetch_publications.py
+scholarly

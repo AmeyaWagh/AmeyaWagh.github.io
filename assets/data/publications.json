@@ -1,0 +1,290 @@
+{
+  "last_updated": "2025-11-17T08:45:15.176590",
+  "total_count": 11,
+  "metrics": {
+    "total_citations": 109,
+    "total_citations_5y": 96,
+    "h_index": 4,
+    "h_index_5y": 3,
+    "i10_index": 3,
+    "i10_index_5y": 2,
+    "five_years_ago": 2020
+  },
+  "categories": {
+    "journals": [
+      {
+        "title": "Semantic Segmentation of Smartphone Wound Images: Comparative Analysis of AHRF and CNN-Based Approaches",
+        "authors": "Ameya Wagh and Shubham Jain and Apratim Mukherjee and Emmanuel Agu and Peder Pedersen and Diane Strong and Bengisu Tulu and Clifford Lindsay and Ziyang Liu",
+        "venue": "IEEE Access",
+        "year": 2020,
+        "abstract": "Smartphone wound image analysis has recently emerged as a viable way to assess healing progress and provide actionable feedback to patients and caregivers between hospital appointments. Segmentation is a key image analysis step, after which attributes of the wound segment (e.g. wound area and tissue composition) can be analyzed. The Associated Hierarchical Random Field (AHRF) formulates the image segmentation problem as a graph optimization problem. Handcrafted features are extracted, which are then classified using machine learning classifiers. More recently deep learning approaches have emerged and demonstrated superior performance for a wide range of image analysis tasks. FCN, U-Net and DeepLabV3 are Convolutional Neural Networks used for semantic segmentation. While in separate experiments each of these methods have shown promising results, no prior work has …",
+        "citations": 45,
+        "url": "https://ieeexplore.ieee.org/abstract/document/9160940/",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "Transportable open-source application program interface and user interface for generic humanoids: TOUGH",
+        "authors": "Vinayak Jagtap and Shlok Agarwal and Ameya Wagh and Michael Gennert",
+        "venue": "International Journal of Advanced Robotic Systems",
+        "year": 2020,
+        "abstract": "Humanoid robotics is a complex and highly diverse field. Humanoid robots may have dozens of sensors and actuators that together realize complicated behaviors. Adding to the complexity is that each type of humanoid has unique application program interfaces, thus software written for one humanoid does not easily transport to others. This article introduces the transportable open-source application program interface and user interface for generic humanoids, a set of application program interfaces that simplifies the programming and operation of diverse humanoid robots. These application program interfaces allow for quick implementation of complex tasks and high-level controllers. Transportable open-source application program interface and user interface for generic humanoids has been developed for, and tested on, Boston Dynamics’ Atlas V5 and NASA’s Valkyrie R5 robots. It has proved successful for …",
+        "citations": 1,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/1729881420921607",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "Fine-Grained Diabetic Wound Depth and Granulation Tissue Amount Assessment Using Bilinear Convolutional Neural Network",
+        "authors": "Xixuan Zhao and Ziyang Liu and Emmanuel Agu and Ameya Wagh and Shubham Jain and Clifford Lindsay and Bengisu Tulu and Diane Strong and Jiangming Kan",
+        "venue": "IEEE Access",
+        "year": 2019,
+        "abstract": "Diabetes mellitus is a serious chronic disease that affects millions of people worldwide. In patients with diabetes, ulcers occur frequently and heal slowly. Grading and staging of diabetic ulcers is the first step of effective treatment and wound depth and granulation tissue amount are two important indicators of wound healing progress. However, wound depths and granulation tissue amount of different severities can visually appear quite similar, making accurate machine learning classification challenging. In this paper, we innovatively adopted the fine-grained classification idea for diabetic wound grading by using a Bilinear CNN (Bi-CNN) architecture to deal with highly similar images of five grades. Wound area extraction, sharpening, resizing and augmentation were used to pre-process images before being input to the Bi-CNN. Innovative modifications of the generic Bi-CNN network architecture are explored to …",
+        "citations": 39,
+        "url": "https://ieeexplore.ieee.org/abstract/document/8931677/",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "Intelligent Workplace Assistant",
+        "authors": "Aditya Shinde and Ameya Wagh and Aditya Bhopale and Onkar Ghone and Ashish Harsola",
+        "venue": "International Journal of Soft Computing And Artificial Intelligence (IJSCAI)",
+        "year": 2015,
+        "abstract": "",
+        "citations": 0,
+        "url": "",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ],
+    "conferences": [
+      {
+        "title": "Machine Learning for Health (ML4H) 2024",
+        "authors": "Helen Zhou and Stefan Hegselmann and Elizabeth Healey and Trenton Chang and Caleb Ellington and Michael Leone and Vishwali Mhasawade and Sana Tonekaboni and Winston Chen and Hyewon Jeong and Xiaoxiao Li and Juyeon Heo and Payal Chandak and Ayush Noori and Sarah Jabbour and Jessica Dafflon and Jerry Ji10 and Jivat Neet Kaur10 and Amin Adibi10 and Xu Cao10 and Meera Krishnamoorthy11 and Yidi Huang11 and Fabian Gröger12 and Aishwarya Mandyam13 and Niloufar Saharhkhiz13 and Teya Bergamaschi14 and William Boag15 and Jeroen Berrevoets15 and Matthew Lee16 and Kyle Heuton16 and Peniel Argaw17 and Haoran Zhang17",
+        "venue": "Unknown Venue",
+        "year": 2024,
+        "abstract": "The fourth Machine Learning for Health (ML4H) symposium was held on December 15-16, 2024, in Vancouver, BC, Canada. Similar to the last three years (Roy et al., 2021; Parziale et al., 2022; Hegselmann et al., 2023b), the symposium was a standalone event co-located with the Neural Information Processing Systems (NeurIPS) conference.",
+        "citations": 0,
+        "url": "https://openreview.net/pdf?id=OQrmD1zUXb",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "Design and implementation of advanced auto calibrating line following sensor for coloured surfaces with a white line",
+        "authors": "Samruddhi Patil and Ameya Wagh and Mitali Sawant and Saurav Panda and Aditya Bhopale",
+        "venue": "Unknown Venue",
+        "year": 2016,
+        "abstract": "This paper discusses the design and implementation of a 7 channel line sensor for line following robot having advanced functionalities such as software based automatic sensor calibration and individual threshold per sensor channel. Unlike traditional line sensors which work on black surfaces with a white line or vice versa, this sensor is designed to differentiate white line on any coloured surface. Thus this sensor can be implemented in robotics applications or in industries where different section's floors are assigned with different colours and robot navigates using line following. The system was implemented using light emitting diodes, phototransistor and an onboard microcontroller Arduino Mega 2560 which communicates with any navigation control system using serial communication. Moving average filters are implemented per channel to remove the fluctuations in the readings due to vibration of the sensor …",
+        "citations": 3,
+        "url": "https://ieeexplore.ieee.org/abstract/document/7853535/",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "Implementation of MOSFETs in a closed loop H-Bridge motor driver using charge pumps",
+        "authors": "Ameya Wagh and Nilay Sheth and Jonathon Joshi",
+        "venue": "Unknown Venue",
+        "year": 2015,
+        "abstract": "An efficient modeling of motor drivers using an H Bridge configuration driven by charge pumps controlled by embedded components is presented. N-channel MOSFETs and charge pumps together eliminate the problems of Dead time of MOSFETs and High values of RDS (ON). The embedded system using an ATMEL microcontroller drives the load and monitors the load voltages and input PWM to establish a closed loop system by comparing it with the stored threshold state space parameters of the motor, also in turn preventing MOSFET damage by synchronized control over the gates. Charge pump readings have been reported along with feedback readings for the microcontroller. Results obtained are in range with expected outputs.",
+        "citations": 4,
+        "url": "https://ieeexplore.ieee.org/abstract/document/7443724/",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "A low cost portable oscilloscope for educational platforms using a Programmable System on Chip",
+        "authors": "Ameya Wagh and Zalak Dave and Gaurav Singh and Varun Dange and Abhay Tambe and Sachin Gengaje",
+        "venue": "Unknown Venue",
+        "year": 2014,
+        "abstract": "This paper discusses the design and implementation of a portable oscilloscope using a Programmable System on Chip (PSoC). The main aim of this paper is to highlight the use and need of a low cost system for student applications. The system was implemented using a PSoC 4 device and a Nokia 5110 LCD screen. Performance metrics were measured and compared to show tradeoffs between cost and performance.",
+        "citations": 14,
+        "url": "https://ieeexplore.ieee.org/abstract/document/7230746/",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      },
+      {
+        "title": "A Low Cost Portable Oscilloscope for Educational Platforms using a Programmable System on Chip",
+        "authors": "Wagh AMEYA and Dave ZALAK and Singh GAURAV and Dange VARUN and Tambe ABHAY and Gengaje SACHIN",
+        "venue": "International Conferences on Advances in Communication and Computing Technologies",
+        "year": 2014,
+        "abstract": "",
+        "citations": 3,
+        "url": "https://scholar.google.com/scholar?cluster=17652148412238424889&hl=en&oi=scholarr",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ],
+    "patents": [
+      {
+        "title": "SYSTEMS AND METHODS FOR HIGH PRECISION LANE-KEEPING BY AUTONOMOUS VEHICLES",
+        "authors": "Rasika Kangutkar and Ameya Wagh",
+        "venue": "Unknown Venue",
+        "year": 2024,
+        "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
+        "citations": 0,
+        "url": "https://patents.google.com/patent/US20240317222A1/en",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ],
+    "thesis": [
+      {
+        "title": "A Deep Learning based 3D Object Pose Estimation Framework for Robots with RGB-D Sensors",
+        "authors": "Ameya Yatindra Wagh",
+        "venue": "Unknown Venue",
+        "year": 2019,
+        "abstract": "",
+        "citations": 0,
+        "url": "",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ],
+    "other": []
+  },
+  "all_publications": [
+    {
+      "title": "Semantic Segmentation of Smartphone Wound Images: Comparative Analysis of AHRF and CNN-Based Approaches",
+      "authors": "Ameya Wagh and Shubham Jain and Apratim Mukherjee and Emmanuel Agu and Peder Pedersen and Diane Strong and Bengisu Tulu and Clifford Lindsay and Ziyang Liu",
+      "venue": "IEEE Access",
+      "year": 2020,
+      "abstract": "Smartphone wound image analysis has recently emerged as a viable way to assess healing progress and provide actionable feedback to patients and caregivers between hospital appointments. Segmentation is a key image analysis step, after which attributes of the wound segment (e.g. wound area and tissue composition) can be analyzed. The Associated Hierarchical Random Field (AHRF) formulates the image segmentation problem as a graph optimization problem. Handcrafted features are extracted, which are then classified using machine learning classifiers. More recently deep learning approaches have emerged and demonstrated superior performance for a wide range of image analysis tasks. FCN, U-Net and DeepLabV3 are Convolutional Neural Networks used for semantic segmentation. While in separate experiments each of these methods have shown promising results, no prior work has …",
+      "citations": 45,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9160940/",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Fine-Grained Diabetic Wound Depth and Granulation Tissue Amount Assessment Using Bilinear Convolutional Neural Network",
+      "authors": "Xixuan Zhao and Ziyang Liu and Emmanuel Agu and Ameya Wagh and Shubham Jain and Clifford Lindsay and Bengisu Tulu and Diane Strong and Jiangming Kan",
+      "venue": "IEEE Access",
+      "year": 2019,
+      "abstract": "Diabetes mellitus is a serious chronic disease that affects millions of people worldwide. In patients with diabetes, ulcers occur frequently and heal slowly. Grading and staging of diabetic ulcers is the first step of effective treatment and wound depth and granulation tissue amount are two important indicators of wound healing progress. However, wound depths and granulation tissue amount of different severities can visually appear quite similar, making accurate machine learning classification challenging. In this paper, we innovatively adopted the fine-grained classification idea for diabetic wound grading by using a Bilinear CNN (Bi-CNN) architecture to deal with highly similar images of five grades. Wound area extraction, sharpening, resizing and augmentation were used to pre-process images before being input to the Bi-CNN. Innovative modifications of the generic Bi-CNN network architecture are explored to …",
+      "citations": 39,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8931677/",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "A low cost portable oscilloscope for educational platforms using a Programmable System on Chip",
+      "authors": "Ameya Wagh and Zalak Dave and Gaurav Singh and Varun Dange and Abhay Tambe and Sachin Gengaje",
+      "venue": "Unknown Venue",
+      "year": 2014,
+      "abstract": "This paper discusses the design and implementation of a portable oscilloscope using a Programmable System on Chip (PSoC). The main aim of this paper is to highlight the use and need of a low cost system for student applications. The system was implemented using a PSoC 4 device and a Nokia 5110 LCD screen. Performance metrics were measured and compared to show tradeoffs between cost and performance.",
+      "citations": 14,
+      "url": "https://ieeexplore.ieee.org/abstract/document/7230746/",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Implementation of MOSFETs in a closed loop H-Bridge motor driver using charge pumps",
+      "authors": "Ameya Wagh and Nilay Sheth and Jonathon Joshi",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "abstract": "An efficient modeling of motor drivers using an H Bridge configuration driven by charge pumps controlled by embedded components is presented. N-channel MOSFETs and charge pumps together eliminate the problems of Dead time of MOSFETs and High values of RDS (ON). The embedded system using an ATMEL microcontroller drives the load and monitors the load voltages and input PWM to establish a closed loop system by comparing it with the stored threshold state space parameters of the motor, also in turn preventing MOSFET damage by synchronized control over the gates. Charge pump readings have been reported along with feedback readings for the microcontroller. Results obtained are in range with expected outputs.",
+      "citations": 4,
+      "url": "https://ieeexplore.ieee.org/abstract/document/7443724/",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Design and implementation of advanced auto calibrating line following sensor for coloured surfaces with a white line",
+      "authors": "Samruddhi Patil and Ameya Wagh and Mitali Sawant and Saurav Panda and Aditya Bhopale",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "abstract": "This paper discusses the design and implementation of a 7 channel line sensor for line following robot having advanced functionalities such as software based automatic sensor calibration and individual threshold per sensor channel. Unlike traditional line sensors which work on black surfaces with a white line or vice versa, this sensor is designed to differentiate white line on any coloured surface. Thus this sensor can be implemented in robotics applications or in industries where different section's floors are assigned with different colours and robot navigates using line following. The system was implemented using light emitting diodes, phototransistor and an onboard microcontroller Arduino Mega 2560 which communicates with any navigation control system using serial communication. Moving average filters are implemented per channel to remove the fluctuations in the readings due to vibration of the sensor …",
+      "citations": 3,
+      "url": "https://ieeexplore.ieee.org/abstract/document/7853535/",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "A Low Cost Portable Oscilloscope for Educational Platforms using a Programmable System on Chip",
+      "authors": "Wagh AMEYA and Dave ZALAK and Singh GAURAV and Dange VARUN and Tambe ABHAY and Gengaje SACHIN",
+      "venue": "International Conferences on Advances in Communication and Computing Technologies",
+      "year": 2014,
+      "abstract": "",
+      "citations": 3,
+      "url": "https://scholar.google.com/scholar?cluster=17652148412238424889&hl=en&oi=scholarr",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Transportable open-source application program interface and user interface for generic humanoids: TOUGH",
+      "authors": "Vinayak Jagtap and Shlok Agarwal and Ameya Wagh and Michael Gennert",
+      "venue": "International Journal of Advanced Robotic Systems",
+      "year": 2020,
+      "abstract": "Humanoid robotics is a complex and highly diverse field. Humanoid robots may have dozens of sensors and actuators that together realize complicated behaviors. Adding to the complexity is that each type of humanoid has unique application program interfaces, thus software written for one humanoid does not easily transport to others. This article introduces the transportable open-source application program interface and user interface for generic humanoids, a set of application program interfaces that simplifies the programming and operation of diverse humanoid robots. These application program interfaces allow for quick implementation of complex tasks and high-level controllers. Transportable open-source application program interface and user interface for generic humanoids has been developed for, and tested on, Boston Dynamics’ Atlas V5 and NASA’s Valkyrie R5 robots. It has proved successful for …",
+      "citations": 1,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1729881420921607",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "SYSTEMS AND METHODS FOR HIGH PRECISION LANE-KEEPING BY AUTONOMOUS VEHICLES",
+      "authors": "Rasika Kangutkar and Ameya Wagh",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
+      "citations": 0,
+      "url": "https://patents.google.com/patent/US20240317222A1/en",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Machine Learning for Health (ML4H) 2024",
+      "authors": "Helen Zhou and Stefan Hegselmann and Elizabeth Healey and Trenton Chang and Caleb Ellington and Michael Leone and Vishwali Mhasawade and Sana Tonekaboni and Winston Chen and Hyewon Jeong and Xiaoxiao Li and Juyeon Heo and Payal Chandak and Ayush Noori and Sarah Jabbour and Jessica Dafflon and Jerry Ji10 and Jivat Neet Kaur10 and Amin Adibi10 and Xu Cao10 and Meera Krishnamoorthy11 and Yidi Huang11 and Fabian Gröger12 and Aishwarya Mandyam13 and Niloufar Saharhkhiz13 and Teya Bergamaschi14 and William Boag15 and Jeroen Berrevoets15 and Matthew Lee16 and Kyle Heuton16 and Peniel Argaw17 and Haoran Zhang17",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "abstract": "The fourth Machine Learning for Health (ML4H) symposium was held on December 15-16, 2024, in Vancouver, BC, Canada. Similar to the last three years (Roy et al., 2021; Parziale et al., 2022; Hegselmann et al., 2023b), the symposium was a standalone event co-located with the Neural Information Processing Systems (NeurIPS) conference.",
+      "citations": 0,
+      "url": "https://openreview.net/pdf?id=OQrmD1zUXb",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "A Deep Learning based 3D Object Pose Estimation Framework for Robots with RGB-D Sensors",
+      "authors": "Ameya Yatindra Wagh",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "abstract": "",
+      "citations": 0,
+      "url": "",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Intelligent Workplace Assistant",
+      "authors": "Aditya Shinde and Ameya Wagh and Aditya Bhopale and Onkar Ghone and Ashish Harsola",
+      "venue": "International Journal of Soft Computing And Artificial Intelligence (IJSCAI)",
+      "year": 2015,
+      "abstract": "",
+      "citations": 0,
+      "url": "",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    }
+  ]
+}
