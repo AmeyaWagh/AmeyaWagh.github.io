@@ -187,12 +187,43 @@
 @media (max-width: 768px) {
     #projects.layout-horizontal .project-item a,
     #highlights.layout-horizontal .project-item a {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+        min-height: auto !important;
     }
 
     #projects.layout-horizontal .project-item img,
     #highlights.layout-horizontal .project-item img {
-        height: 200px;
+        height: 180px !important;
+        width: 100% !important;
+    }
+
+    #projects.layout-horizontal .project-info,
+    #projects.layout-horizontal .project-info-full,
+    #highlights.layout-horizontal .project-info,
+    #highlights.layout-horizontal .project-info-full {
+        padding: 15px !important;
+    }
+
+    #projects.layout-horizontal .project-info h4,
+    #projects.layout-horizontal .project-info-full h4,
+    #highlights.layout-horizontal .project-info h4,
+    #highlights.layout-horizontal .project-info-full h4 {
+        font-size: 1.1em !important;
+        margin-bottom: 8px !important;
+    }
+
+    #projects.layout-horizontal .project-info p,
+    #projects.layout-horizontal .project-info-full p,
+    #highlights.layout-horizontal .project-info p,
+    #highlights.layout-horizontal .project-info-full p {
+        font-size: 0.9em !important;
+        line-height: 1.5 !important;
+    }
+
+    #projects.layout-horizontal .projects-grid,
+    #highlights.layout-horizontal .projects-grid {
+        gap: 20px !important;
+        margin: 20px auto !important;
     }
 }
 
@@ -201,6 +232,42 @@
     #projects.layout-grid .projects-grid,
     #projects:not([class*="layout-"]) .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    #projects.layout-horizontal .project-item img,
+    #highlights.layout-horizontal .project-item img {
+        height: 150px !important;
+    }
+
+    #projects.layout-horizontal .project-info,
+    #projects.layout-horizontal .project-info-full,
+    #highlights.layout-horizontal .project-info,
+    #highlights.layout-horizontal .project-info-full {
+        padding: 12px !important;
+    }
+
+    #projects.layout-horizontal .project-info h4,
+    #projects.layout-horizontal .project-info-full h4,
+    #highlights.layout-horizontal .project-info h4,
+    #highlights.layout-horizontal .project-info-full h4 {
+        font-size: 1em !important;
+        margin-bottom: 6px !important;
+    }
+
+    #projects.layout-horizontal .project-info p,
+    #projects.layout-horizontal .project-info-full p,
+    #highlights.layout-horizontal .project-info p,
+    #highlights.layout-horizontal .project-info-full p {
+        font-size: 0.85em !important;
+    }
+
+    #projects.layout-horizontal .projects-grid,
+    #highlights.layout-horizontal .projects-grid {
+        gap: 15px !important;
+        margin: 15px auto !important;
     }
 }
 
