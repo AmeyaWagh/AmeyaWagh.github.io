@@ -105,7 +105,8 @@
 /* ========================================
    OPTION 3: HORIZONTAL CARDS LAYOUT
    ======================================== */
-#projects.layout-horizontal .projects-grid {
+#projects.layout-horizontal .projects-grid,
+#highlights.layout-horizontal .projects-grid {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -113,7 +114,8 @@
     margin: 30px auto;
 }
 
-#projects.layout-horizontal .project-item {
+#projects.layout-horizontal .project-item,
+#highlights.layout-horizontal .project-item {
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
@@ -121,27 +123,32 @@
     transition: box-shadow 0.3s, transform 0.3s;
 }
 
-#projects.layout-horizontal .project-item:hover {
+#projects.layout-horizontal .project-item:hover,
+#highlights.layout-horizontal .project-item:hover {
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
     transform: translateX(5px);
 }
 
-#projects.layout-horizontal .project-item a {
-    display: grid;
-    grid-template-columns: 300px 1fr;
+#projects.layout-horizontal .project-item a,
+#highlights.layout-horizontal .project-item a {
+    display: grid !important;
+    grid-template-columns: 300px 1fr !important;
     text-decoration: none;
     color: inherit;
     min-height: 200px;
 }
 
-#projects.layout-horizontal .project-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#projects.layout-horizontal .project-item img,
+#highlights.layout-horizontal .project-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 }
 
 #projects.layout-horizontal .project-info,
-#projects.layout-horizontal .project-info-full {
+#projects.layout-horizontal .project-info-full,
+#highlights.layout-horizontal .project-info,
+#highlights.layout-horizontal .project-info-full {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -149,21 +156,26 @@
 }
 
 #projects.layout-horizontal .project-info h4,
-#projects.layout-horizontal .project-info-full h4 {
+#projects.layout-horizontal .project-info-full h4,
+#highlights.layout-horizontal .project-info h4,
+#highlights.layout-horizontal .project-info-full h4 {
     font-size: 1.5em;
     margin-bottom: 12px;
     color: #0066cc;
 }
 
 #projects.layout-horizontal .project-info p,
-#projects.layout-horizontal .project-info-full p {
+#projects.layout-horizontal .project-info-full p,
+#highlights.layout-horizontal .project-info p,
+#highlights.layout-horizontal .project-info-full p {
     font-size: 1.05em;
     line-height: 1.7;
     color: #555;
 }
 
 /* Fix for items without images in horizontal layout */
-#projects.layout-horizontal .project-item:has(.project-info-full) a {
+#projects.layout-horizontal .project-item:has(.project-info-full) a,
+#highlights.layout-horizontal .project-item:has(.project-info-full) a {
     grid-template-columns: 1fr;
 }
 
@@ -173,11 +185,13 @@
 
 /* Horizontal layout - stack on mobile */
 @media (max-width: 768px) {
-    #projects.layout-horizontal .project-item a {
+    #projects.layout-horizontal .project-item a,
+    #highlights.layout-horizontal .project-item a {
         grid-template-columns: 1fr;
     }
 
-    #projects.layout-horizontal .project-item img {
+    #projects.layout-horizontal .project-item img,
+    #highlights.layout-horizontal .project-item img {
         height: 200px;
     }
 }
