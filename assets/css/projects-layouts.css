@@ -132,10 +132,10 @@
 #projects.layout-horizontal .project-item a,
 #highlights.layout-horizontal .project-item a {
     display: grid !important;
-    grid-template-columns: 300px 1fr !important;
+    grid-template-columns: 220px 1fr !important;
     text-decoration: none;
     color: inherit;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 #projects.layout-horizontal .project-item img,
@@ -149,7 +149,7 @@
 #projects.layout-horizontal .project-info-full,
 #highlights.layout-horizontal .project-info,
 #highlights.layout-horizontal .project-info-full {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,8 +159,8 @@
 #projects.layout-horizontal .project-info-full h4,
 #highlights.layout-horizontal .project-info h4,
 #highlights.layout-horizontal .project-info-full h4 {
-    font-size: 1.5em;
-    margin-bottom: 12px;
+    font-size: 1.3em;
+    margin-bottom: 8px;
     color: #0066cc;
 }
 
@@ -168,8 +168,8 @@
 #projects.layout-horizontal .project-info-full p,
 #highlights.layout-horizontal .project-info p,
 #highlights.layout-horizontal .project-info-full p {
-    font-size: 1.05em;
-    line-height: 1.7;
+    font-size: 0.95em;
+    line-height: 1.5;
     color: #555;
 }
 

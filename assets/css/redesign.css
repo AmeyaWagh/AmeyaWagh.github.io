@@ -134,6 +134,51 @@ section p {
 	text-align: justify;
 }
 
+/* About Me Section Layout */
+section#about .about-content {
+	display: flex !important;
+	flex-direction: row !important;
+	gap: 40px !important;
+	align-items: flex-start !important;
+	width: 100% !important;
+}
+
+section#about .about-text {
+	flex: 1 !important;
+	min-width: 0 !important;
+}
+
+section#about .about-image {
+	flex-shrink: 0 !important;
+	width: 180px !important;
+	max-width: 180px !important;
+	order: -1 !important;
+}
+
+section#about .about-image img.profile-pic {
+	width: 100% !important;
+	max-width: 180px !important;
+	height: auto !important;
+	border-radius: 8px !important;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+	display: block !important;
+}
+
+/* Responsive: Stack on mobile */
+@media (max-width: 768px) {
+	section#about .about-content {
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+
+	section#about .about-image {
+		width: 150px !important;
+		max-width: 150px !important;
+		order: 0 !important;
+		margin-bottom: 20px !important;
+	}
+}
+
 /* Education */
 .education-item {
 	margin-bottom: 25px;
