@@ -1,0 +1,273 @@
+/*
+ * Projects Layout Options
+ * Add one of these classes to <section id="projects"> to change layout:
+ * - layout-grid (default - current grid layout)
+ * - layout-vertical (stacked one below the other)
+ * - layout-horizontal (horizontal cards with image on left)
+ */
+
+/* ========================================
+   OPTION 1: GRID LAYOUT (Current Default)
+   ======================================== */
+#projects.layout-grid .projects-grid,
+#projects:not([class*="layout-"]) .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#projects.layout-grid .project-item,
+#projects:not([class*="layout-"]) .project-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects.layout-grid .project-item:hover,
+#projects:not([class*="layout-"]) .project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+#projects.layout-grid .project-item img,
+#projects:not([class*="layout-"]) .project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#projects.layout-grid .project-info,
+#projects:not([class*="layout-"]) .project-info,
+#projects.layout-grid .project-info-full,
+#projects:not([class*="layout-"]) .project-info-full {
+    padding: 20px;
+}
+
+/* ========================================
+   OPTION 2: VERTICAL STACK LAYOUT
+   ======================================== */
+#projects.layout-vertical .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+#projects.layout-vertical .project-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+    border-left: 4px solid #0066cc;
+}
+
+#projects.layout-vertical .project-item:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+#projects.layout-vertical .project-item a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+#projects.layout-vertical .project-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+#projects.layout-vertical .project-info,
+#projects.layout-vertical .project-info-full {
+    padding: 25px 30px;
+}
+
+#projects.layout-vertical .project-info h4,
+#projects.layout-vertical .project-info-full h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #0066cc;
+}
+
+#projects.layout-vertical .project-info p,
+#projects.layout-vertical .project-info-full p {
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ========================================
+   OPTION 3: HORIZONTAL CARDS LAYOUT
+   ======================================== */
+#projects.layout-horizontal .projects-grid,
+#highlights.layout-horizontal .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#projects.layout-horizontal .project-item,
+#highlights.layout-horizontal .project-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+#projects.layout-horizontal .project-item:hover,
+#highlights.layout-horizontal .project-item:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    transform: translateX(5px);
+}
+
+#projects.layout-horizontal .project-item a,
+#highlights.layout-horizontal .project-item a {
+    display: grid !important;
+    grid-template-columns: 220px 1fr !important;
+    text-decoration: none;
+    color: inherit;
+    min-height: 150px;
+}
+
+#projects.layout-horizontal .project-item img,
+#highlights.layout-horizontal .project-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+#projects.layout-horizontal .project-info,
+#projects.layout-horizontal .project-info-full,
+#highlights.layout-horizontal .project-info,
+#highlights.layout-horizontal .project-info-full {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects.layout-horizontal .project-info h4,
+#projects.layout-horizontal .project-info-full h4,
+#highlights.layout-horizontal .project-info h4,
+#highlights.layout-horizontal .project-info-full h4 {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    color: #0066cc;
+}
+
+#projects.layout-horizontal .project-info p,
+#projects.layout-horizontal .project-info-full p,
+#highlights.layout-horizontal .project-info p,
+#highlights.layout-horizontal .project-info-full p {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Fix for items without images in horizontal layout */
+#projects.layout-horizontal .project-item:has(.project-info-full) a,
+#highlights.layout-horizontal .project-item:has(.project-info-full) a {
+    grid-template-columns: 1fr;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+/* Horizontal layout - stack on mobile */
+@media (max-width: 768px) {
+    #projects.layout-horizontal .project-item a,
+    #highlights.layout-horizontal .project-item a {
+        grid-template-columns: 1fr !important;
+        min-height: auto !important;
+    }
+
+    #projects.layout-horizontal .project-item img,
+    #highlights.layout-horizontal .project-item img {
+        height: 180px !important;
+        width: 100% !important;
+    }
+
+    #projects.layout-horizontal .project-info,
+    #projects.layout-horizontal .project-info-full,
+    #highlights.layout-horizontal .project-info,
+    #highlights.layout-horizontal .project-info-full {
+        padding: 15px !important;
+    }
+
+    #projects.layout-horizontal .project-info h4,
+    #projects.layout-horizontal .project-info-full h4,
+    #highlights.layout-horizontal .project-info h4,
+    #highlights.layout-horizontal .project-info-full h4 {
+        font-size: 1.1em !important;
+        margin-bottom: 8px !important;
+    }
+
+    #projects.layout-horizontal .project-info p,
+    #projects.layout-horizontal .project-info-full p,
+    #highlights.layout-horizontal .project-info p,
+    #highlights.layout-horizontal .project-info-full p {
+        font-size: 0.9em !important;
+        line-height: 1.5 !important;
+    }
+
+    #projects.layout-horizontal .projects-grid,
+    #highlights.layout-horizontal .projects-grid {
+        gap: 20px !important;
+        margin: 20px auto !important;
+    }
+}
+
+/* Grid layout - single column on small screens */
+@media (max-width: 640px) {
+    #projects.layout-grid .projects-grid,
+    #projects:not([class*="layout-"]) .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    #projects.layout-horizontal .project-item img,
+    #highlights.layout-horizontal .project-item img {
+        height: 150px !important;
+    }
+
+    #projects.layout-horizontal .project-info,
+    #projects.layout-horizontal .project-info-full,
+    #highlights.layout-horizontal .project-info,
+    #highlights.layout-horizontal .project-info-full {
+        padding: 12px !important;
+    }
+
+    #projects.layout-horizontal .project-info h4,
+    #projects.layout-horizontal .project-info-full h4,
+    #highlights.layout-horizontal .project-info h4,
+    #highlights.layout-horizontal .project-info-full h4 {
+        font-size: 1em !important;
+        margin-bottom: 6px !important;
+    }
+
+    #projects.layout-horizontal .project-info p,
+    #projects.layout-horizontal .project-info-full p,
+    #highlights.layout-horizontal .project-info p,
+    #highlights.layout-horizontal .project-info-full p {
+        font-size: 0.85em !important;
+    }
+
+    #projects.layout-horizontal .projects-grid,
+    #highlights.layout-horizontal .projects-grid {
+        gap: 15px !important;
+        margin: 15px auto !important;
+    }
+}
+
