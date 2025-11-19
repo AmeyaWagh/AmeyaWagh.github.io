@@ -1,212 +1,201 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ameya Wagh Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="stylesheet" href="../assets/css/customw3.css">
-
-
-		<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	<body>
+<html lang="en">
+<head>
+	<title>ABU Robocon - Ameya Wagh</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="description" content="ABU Robocon Projects by Ameya Wagh" />
+	<link rel="stylesheet" href="../assets/css/redesign.css" />
+	<link rel="stylesheet" href="../assets/css/projects-layouts.css" />
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+	<style>
+		.back-link {
+			display: inline-block;
+			margin: 20px 0;
+			padding: 10px 20px;
+			background-color: #f5f5f5;
+			border-radius: 5px;
+			text-decoration: none;
+			color: #333;
+			transition: background-color 0.3s;
+		}
+		.back-link:hover {
+			background-color: #e0e0e0;
+		}
+		.page-intro {
+			margin: 30px 0;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border-left: 4px solid #0066cc;
+		}
+		.robocon-year {
+			margin: 40px 0;
+			padding: 25px;
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+		}
+		.robocon-year h3 {
+			color: #0066cc;
+			margin-bottom: 15px;
+			font-size: 1.5em;
+		}
+		.robocon-year img {
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+			border-radius: 8px;
+			margin: 15px 0;
+		}
+		.video-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			gap: 20px;
+			margin-top: 20px;
+		}
+		.video-item {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 aspect ratio */
+			height: 0;
+			overflow: hidden;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+		}
+		.video-item iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+		.video-title {
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
 		<!-- Header -->
-		<div id="header">
-
-			<div class="top">
-
-				<!-- Logo -->
-					<div id="logo">
-						<span class="image avatar48"><img src="../images/avatarnew2.jpg" alt="" /></span>
-						<h1 id="title">Ameya Wagh</h1>
-						<p>Graduate Student at WPI</p>
-					</div>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<!--
-
-							Prologue's nav expects links in one of two formats:
-
-							1. Hash link (scrolls to a different section within the page)
-
-							   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-							2. Standard link (sends the user to another page/site)
-
-							   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-						-->
-						<ul>
-							<li><a href="../index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-							<li><a href="../index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-							<li><a href="../index.html#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
-							<li><a href="../index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-						</ul>
-					</nav>
-
-			</div>
-
-			<div class="bottom">
-
-				<!-- Social Icons -->
-					<ul class="icons">
-							<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<li><a href="https://www.facebook.com/ameya.wagh" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="https://www.linkedin.com/in/ameya-wagh-b87517104/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-							<!-- <li><a href="https://github.com/AmeyaWagh" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://bitbucket.org/ameyawagh/" class="icon fa-bitbucket"><span class="label">BitBucket</span></a></li><br/>
-							<li><a href="https://www.hackerrank.com/ameya555" class="fa fa-hackerrank"><span class="label">HackerRank</span></a></li><br/>
-							<li><a href="https://hub.docker.com/u/ameyawagh/" class="fa fa-docker"><span class="label">Docker</span></a></li> -->
-					</ul>
-
-			</div>
-
-		</div>
-		
-
-		<div id="main">
-			<!-- Portfolio -->
-			<section id="portfolio" class="two">
-				<div class="container">
-
-					<header>
-						<h2>Robocon</h2>
-					</header>
-
-					<p>.</p>
-					<!-- <iframe width="420" height="345" src="https://www.youtube.com/watch?v=jPdG0GP2sjo"></iframe> -->
-
-					<div class="row">
-
-						<div class="4u 12u$(mobile)">
-							<article class="item">
-								<a href="#" class="image fit" data-toggle="modal" data-target="#myModal" onclick="document.getElementById('id10').style.display='block'" class="w3-button w3-black"><img src="../images/Robocon2014.jpg" alt="" /></a>
-									<!-- <p>hello world fawekjahlkjdhflasjfhkdjhfalksjdfhlakfdsh</p> -->
-								<header>
-									<h3>Robocon 2014</h3>
-								</header>
-								<p>
-									<strong>Parenthood</strong> - Two Robots, a parent robot and a child robot has to complete task to complete the game  
-								</p>
-								<!-- Modal -->
-										<div class="w3-container">  
-										  <div id="id10" class="w3-modal">
-										    <div class="w3-modal-content">
-										      <div class="w3-container">
-										        <span onclick="document.getElementById('id10').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-										        <!-- <span class="icon fa-times-rectangle" aria-hidden="true"></span> -->
-										        <hr></hr>
-										        	<p>Agnel Robocon Team 2014 Promo</p>
-										        	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iKI01phywEs" frameborder="0" allowfullscreen></iframe>
-
-										        <hr></hr>
-										        	<p>AGNEL ROBOCON TEAM: ROBOCON 2014 Practice Session 01</p>
-										        	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/llEYCULj78A" frameborder="0" allowfullscreen></iframe>
-										        
-										        <hr></hr>
-										        	<p>AGNEL ROBOCON TEAM: ROBOCON 2014 Practice Session 02</p>
-										        	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XhnlNqNYJDw" frameborder="0" allowfullscreen></iframe>
-										        
-										        <hr></hr>
-										        	<p>AGNEL ROBOCON TEAM: ROBOCON 2014 Practice Session 03</p>
-										        	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Cv3am8ImkHM" frameborder="0" allowfullscreen></iframe>
-										        
-										      </div>
-										    </div>
-										  </div>
-										</div>
-										<!-- Modal closed -->
-							</article>
-						</div>
-						<div class="4u 12u$(mobile)">
-							<article class="item">
-								<a href="#" class="image fit"><img src="../images/Robocon2015.jpg" alt="" /></a>
-								<!-- <a href="#" class="image fit"><img src="../images/pic03.jpg" alt="" /></a> -->
-								<header>
-									<h3>Robocon 2015</h3>
-								</header>
-								<p>
-									<strong>Robominton</strong> - Two batmington playing robots with a capability to deliver service played against two of the other team in a badmington doubles match.
-								</p>
-							</article>
-						</div>
-						<div class="4u 12u$(mobile)">
-							<article class="item">
-								<a href="#" class="image fit" data-toggle="modal" data-target="#myModal" onclick="document.getElementById('id11').style.display='block'" class="w3-button w3-black"><img src="../images/Robocon2016.jpg" alt="" /></a>
-								<header>
-									<h3>Robocon 2016<br/></h3>
-								</header>
-									<p>
-										<strong>Clean Energy</strong> - an autonomous and a manual robot had to complete a terrain of river and mountains and hoist the wind turbinw on the windmill. The manual robot can push automatic robot only using clean energy such as wind. The autonomous robot was guided by following white line but on multicoloured surface
-									</p>
-									<!-- Modal -->
-										<div class="w3-container">  
-										  <div id="id11" class="w3-modal">
-										    <div class="w3-modal-content">
-										      <div class="w3-container">
-										        <span onclick="document.getElementById('id11').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-										        <!-- <span class="icon fa-times-rectangle" aria-hidden="true"></span> -->
-										        <hr></hr>
-										        	<p>ABU ROBOCON INDIA 2016: FCRIT vs Dhole Patil College, Pune( SUPER LEAGUE MATCH 1-GAME 1)</p>
-										        	<iframe width="560" height="315" src="https://www.youtube.com/embed/2GMkYcUXOTc" frameborder="0" allowfullscreen></iframe>
-										        
-										        <hr></hr>
-										        	<p>ABU ROBOCON INDIA 2016: FCRIT vs IIT KANPUR ( SUPER LEAGUE MATCH 2-GAME 1)</p>
-										        	<iframe width="560" height="315" src="https://www.youtube.com/embed/yma9P5hDhRM" frameborder="0" allowfullscreen></iframe>
-
-										        <hr></hr>
-										        	<p>ABU ROBOCON INDIA 2016: FCRIT vs IIT KANPUR ( SUPER LEAGUE MATCH 2-GAME 2)</p>
-										        	<iframe width="560" height="315" src="https://www.youtube.com/embed/WDSPHaQipgA" frameborder="0" allowfullscreen></iframe>
-
-										        <hr></hr>
-										        	<p>ABU ROBOCON INDIA 2016: FCRIT vs MANIPAL INSTITUE ( LEAGUE MATCH 2 - GAME 1)</p>
-										        	<iframe width="560" height="315" src="https://www.youtube.com/embed/engpgY9pvEw" frameborder="0" allowfullscreen></iframe>
-
-										        <hr></hr>
-										        	<p>ABU ROBOCON INDIA 2016: FCRIT vs SSBT'S COET, Jalgaon. (LEAGUE MATCH 1)</p>
-										        	<iframe width="560" height="315" src="https://www.youtube.com/embed/WbCriG-pK9I" frameborder="0" allowfullscreen></iframe>
-
-										      </div>
-										    </div>
-										  </div>
-										</div>
-										<!-- Modal closed -->
-							</article>
-							
-						</div>
-					</div>
-
+		<header>
+			<div class="header-content">
+				<div class="header-left">
+					<h1>ABU Robocon Projects</h1>
+					<p class="tagline">International Robotics Competition</p>
 				</div>
-			</section>
+				<div class="header-right">
+					<img src="../images/WPCF1064.jpg" alt="Ameya Wagh" class="profile-pic" />
+				</div>
+			</div>
 
-		</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			
+			<!-- Navigation -->
+			<nav class="main-nav">
+				<a href="../index.html"><i class="fa fa-home"></i> Home</a>
+				<a href="mailto:ameyawagh555@gmail.com" title="Email"><i class="fa fa-envelope"></i> Email</a>
+				<a href="https://github.com/AmeyaWagh" target="_blank" title="GitHub"><i class="fa fa-github"></i> GitHub</a>
+				<a href="https://www.linkedin.com/in/aywagh/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+			</nav>
+		</header>
 
-			<script src="assets/js/typed.js"></script>
-			<script src="assets/js/terminalType.js"></script>
+		<a href="../index.html#projects" class="back-link"><i class="fa fa-arrow-left"></i> Back to Main Page</a>
 
-	</body>
+		<!-- Introduction -->
+		<section>
+			<div class="page-intro">
+				<h2>About ABU Robocon</h2>
+				<p>ABU Robocon (Asia-Pacific Robot Contest) is an international robotics competition where teams design and build robots to complete challenging tasks. I participated in three consecutive years (2014, 2015, 2016) representing FCRIT (Fr. Conceicao Rodrigues Institute of Technology), developing autonomous and manual robots for various challenges.</p>
+			</div>
+		</section>
+
+		<!-- Robocon 2014 -->
+		<section class="robocon-year">
+			<h3>Robocon 2014 - Parenthood</h3>
+			<img src="../images/Robocon2014.jpg" alt="Robocon 2014" />
+			<p><strong>Challenge:</strong> Two robots (parent and child) had to work together to complete the game tasks. This required precise coordination between autonomous and manual control systems.</p>
+
+			<h4>Videos</h4>
+			<div class="video-grid">
+				<div>
+					<p class="video-title">Agnel Robocon Team 2014 Promo</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube-nocookie.com/embed/iKI01phywEs" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">Practice Session 01</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube-nocookie.com/embed/llEYCULj78A" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">Practice Session 02</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube-nocookie.com/embed/XhnlNqNYJDw" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">Practice Session 03</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube-nocookie.com/embed/Cv3am8ImkHM" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Robocon 2015 -->
+		<section class="robocon-year">
+			<h3>Robocon 2015 - Robominton</h3>
+			<img src="../images/Robocon2015.jpg" alt="Robocon 2015" />
+			<p><strong>Challenge:</strong> Two badminton-playing robots with service delivery capability played against two other team robots in a badminton doubles match. This required sophisticated motion control and ball tracking systems.</p>
+		</section>
+
+		<!-- Robocon 2016 -->
+		<section class="robocon-year">
+			<h3>Robocon 2016 - Clean Energy</h3>
+			<img src="../images/Robocon2016.jpg" alt="Robocon 2016" />
+			<p><strong>Challenge:</strong> An autonomous and a manual robot had to traverse terrain representing rivers and mountains, and hoist a wind turbine on a windmill. The manual robot could only push the autonomous robot using clean energy (wind). The autonomous robot followed white lines on multi-colored surfaces.</p>
+
+			<h4>Competition Videos</h4>
+			<div class="video-grid">
+				<div>
+					<p class="video-title">FCRIT vs Dhole Patil College (Super League Match 1)</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube.com/embed/2GMkYcUXOTc" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">FCRIT vs IIT Kanpur (Super League Match 2 - Game 1)</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube.com/embed/yma9P5hDhRM" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">FCRIT vs IIT Kanpur (Super League Match 2 - Game 2)</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube.com/embed/WDSPHaQipgA" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">FCRIT vs Manipal Institute (League Match 2)</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube.com/embed/engpgY9pvEw" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div>
+					<p class="video-title">FCRIT vs SSBT's COET Jalgaon (League Match 1)</p>
+					<div class="video-item">
+						<iframe src="https://www.youtube.com/embed/WbCriG-pK9I" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2025 Ameya Wagh. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
 </html>
