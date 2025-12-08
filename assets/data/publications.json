@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T09:07:36.261727",
+  "last_updated": "2025-12-08T09:07:31.618994",
   "total_count": 11,
   "metrics": {
     "total_citations": 109,
@@ -129,7 +129,7 @@
         "authors": "Rasika Kangutkar and Ameya Wagh",
         "venue": "Unknown Venue",
         "year": 2024,
-        "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
+        "abstract": "B60W—CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT",
         "citations": 0,
         "url": "https://patents.google.com/patent/US20240317222A1/en",
         "eprint_url": "",
@@ -243,7 +243,7 @@
       "authors": "Rasika Kangutkar and Ameya Wagh",
       "venue": "Unknown Venue",
       "year": 2024,
-      "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
+      "abstract": "B60W—CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT",
       "citations": 0,
       "url": "https://patents.google.com/patent/US20240317222A1/en",
       "eprint_url": "",
