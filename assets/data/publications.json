@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-08T09:07:31.618994",
-  "total_count": 11,
+  "last_updated": "2025-12-22T09:07:35.441261",
+  "total_count": 12,
   "metrics": {
-    "total_citations": 109,
-    "total_citations_5y": 96,
+    "total_citations": 110,
+    "total_citations_5y": 97,
     "h_index": 4,
     "h_index_5y": 3,
     "i10_index": 3,
@@ -151,7 +151,20 @@
         "pub_type": "article"
       }
     ],
-    "other": []
+    "other": [
+      {
+        "title": "Distributed approach for implementation of A3c on TORCS",
+        "authors": "Ameya Wagh and Shakthi Duraimurugan and Sanket Gujar",
+        "venue": "Unknown Venue",
+        "year": 2019,
+        "abstract": "The performance of a reinforcement learning agent depends on its exploration by interacting with the environment. A popular approach to increase the exploration is to implement Asynchronous advantage actor critic algorithm, but it requires a multi-core high-performance CPU which can multi-thread environment processes. We propose a simple scalable distributed framework to implement the Asynchronous advantage actorcritic reinforcement algorithm on multiple single or dual core systems. This framework was experimented on the open source car racing simulator-TORCS. Based on the results obtained, we conclude that a distributed approach with a high number of agents gives more exploration to the agent and reduces the training time than a single agent running on a single system. Furthermore, the proposed framework can be experimented with other deep reinforcement learning algorithms.",
+        "citations": 1,
+        "url": "https://sanketgujar.github.io/ext/pap/pdfs/A3C.pdf",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ]
   },
   "all_publications": [
     {
@@ -234,6 +247,18 @@
       "abstract": "Humanoid robotics is a complex and highly diverse field. Humanoid robots may have dozens of sensors and actuators that together realize complicated behaviors. Adding to the complexity is that each type of humanoid has unique application program interfaces, thus software written for one humanoid does not easily transport to others. This article introduces the transportable open-source application program interface and user interface for generic humanoids, a set of application program interfaces that simplifies the programming and operation of diverse humanoid robots. These application program interfaces allow for quick implementation of complex tasks and high-level controllers. Transportable open-source application program interface and user interface for generic humanoids has been developed for, and tested on, Boston Dynamics’ Atlas V5 and NASA’s Valkyrie R5 robots. It has proved successful for …",
       "citations": 1,
       "url": "https://journals.sagepub.com/doi/abs/10.1177/1729881420921607",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Distributed approach for implementation of A3c on TORCS",
+      "authors": "Ameya Wagh and Shakthi Duraimurugan and Sanket Gujar",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "abstract": "The performance of a reinforcement learning agent depends on its exploration by interacting with the environment. A popular approach to increase the exploration is to implement Asynchronous advantage actor critic algorithm, but it requires a multi-core high-performance CPU which can multi-thread environment processes. We propose a simple scalable distributed framework to implement the Asynchronous advantage actorcritic reinforcement algorithm on multiple single or dual core systems. This framework was experimented on the open source car racing simulator-TORCS. Based on the results obtained, we conclude that a distributed approach with a high number of agents gives more exploration to the agent and reduces the training time than a single agent running on a single system. Furthermore, the proposed framework can be experimented with other deep reinforcement learning algorithms.",
+      "citations": 1,
+      "url": "https://sanketgujar.github.io/ext/pap/pdfs/A3C.pdf",
       "eprint_url": "",
       "author_id": [],
       "pub_type": "article"
