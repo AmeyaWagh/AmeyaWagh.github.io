@@ -1,14 +1,14 @@
 {
-  "last_updated": "2025-12-22T09:07:35.441261",
+  "last_updated": "2026-01-05T09:09:04.909086",
   "total_count": 12,
   "metrics": {
     "total_citations": 110,
-    "total_citations_5y": 97,
+    "total_citations_5y": 91,
     "h_index": 4,
     "h_index_5y": 3,
     "i10_index": 3,
     "i10_index_5y": 2,
-    "five_years_ago": 2020
+    "five_years_ago": 2021
   },
   "categories": {
     "journals": [
