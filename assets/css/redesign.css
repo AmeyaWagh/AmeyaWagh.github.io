@@ -126,15 +126,39 @@ body {
 	color: #1772d0;
 }
 
-/* About links row */
+/* About footer: links + follow button on same row */
+.about-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 16px;
+}
+
 .about-links {
-	margin-top: 16px !important;
-	margin-bottom: 0 !important;
-	font-size: 15px;
+	margin: 0 !important;
+	display: flex;
+	align-items: center;
+	gap: 14px;
 }
 
 .about-links a {
 	color: #1772d0;
+	font-size: 22px;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+}
+
+.about-links a:hover {
+	color: #f09228;
+}
+
+.about-favicon {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
 }
 
 a {
