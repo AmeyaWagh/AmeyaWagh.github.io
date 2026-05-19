@@ -144,16 +144,24 @@ body {
 }
 
 .about-links a {
-	color: #1772d0;
+	color: #555;
 	font-size: 22px;
 	line-height: 1;
 	display: inline-flex;
 	align-items: center;
+	transition: opacity 0.2s;
 }
 
 .about-links a:hover {
-	color: #f09228;
+	opacity: 0.7;
 }
+
+.about-links a.link-cv      { color: #e74c3c; }
+.about-links a.link-scholar { color: #4285F4; }
+.about-links a.link-github  { color: #181717; }
+.about-links a.link-linkedin{ color: #0A66C2; }
+.about-links a.link-orcid   { color: #A6CE39; }
+.about-links a.link-dblp    { color: #004F9F; }
 
 .about-favicon {
 	width: 20px;
