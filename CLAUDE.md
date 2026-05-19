@@ -104,23 +104,9 @@ To deploy changes:
 - Font Awesome 4.7.0 (local)
 - Typed.js library in node_modules (terminal typing effects)
 
-### Modal System
-Uses W3.CSS modal system (not Bootstrap modals) for project descriptions in portfolio section.
-
-## Common Patterns
-
-### Adding a new section
-1. Create `<section id="newsection" class="[one|two|three|four|five]">` in `index.html`
-2. Add navigation link in `#nav` with matching href
-3. Create corresponding CSS file if needed (e.g., `assets/css/newsection.css`)
-4. Link CSS in `<head>` section
-
-### Social links
-Located in two places:
-- Sidebar bottom: `#header .bottom .icons`
-- Main page: Various sections (currently commented out in contact section)
-
-### Image assets
-- GIFs for project demos in `images/`
-- Avatar/profile images in `images/`
-- Referenced with relative paths from HTML files
+### Important paths
+- **Main page**: `index.html`
+- **Styles**: `assets/css/redesign.css`
+- **Publications script**: `assets/js/publications.js`
+- **CV**: `images/AmeyaWaghCV.pdf`
+- **Profile photo**: `images/IMG_0135_Original.jpg`
