@@ -1,14 +1,14 @@
 {
-  "last_updated": "2025-11-19T16:26:51.990718",
-  "total_count": 11,
+  "last_updated": "2026-05-18T17:51:03.253276",
+  "total_count": 12,
   "metrics": {
-    "total_citations": 109,
-    "total_citations_5y": 96,
+    "total_citations": 116,
+    "total_citations_5y": 97,
     "h_index": 4,
     "h_index_5y": 3,
     "i10_index": 3,
     "i10_index_5y": 2,
-    "five_years_ago": 2020
+    "five_years_ago": 2021
   },
   "categories": {
     "journals": [
@@ -18,7 +18,7 @@
         "venue": "IEEE Access",
         "year": 2020,
         "abstract": "Smartphone wound image analysis has recently emerged as a viable way to assess healing progress and provide actionable feedback to patients and caregivers between hospital appointments. Segmentation is a key image analysis step, after which attributes of the wound segment (e.g. wound area and tissue composition) can be analyzed. The Associated Hierarchical Random Field (AHRF) formulates the image segmentation problem as a graph optimization problem. Handcrafted features are extracted, which are then classified using machine learning classifiers. More recently deep learning approaches have emerged and demonstrated superior performance for a wide range of image analysis tasks. FCN, U-Net and DeepLabV3 are Convolutional Neural Networks used for semantic segmentation. While in separate experiments each of these methods have shown promising results, no prior work has …",
-        "citations": 45,
+        "citations": 46,
         "url": "https://ieeexplore.ieee.org/abstract/document/9160940/",
         "eprint_url": "",
         "author_id": [],
@@ -30,7 +30,7 @@
         "venue": "International Journal of Advanced Robotic Systems",
         "year": 2020,
         "abstract": "Humanoid robotics is a complex and highly diverse field. Humanoid robots may have dozens of sensors and actuators that together realize complicated behaviors. Adding to the complexity is that each type of humanoid has unique application program interfaces, thus software written for one humanoid does not easily transport to others. This article introduces the transportable open-source application program interface and user interface for generic humanoids, a set of application program interfaces that simplifies the programming and operation of diverse humanoid robots. These application program interfaces allow for quick implementation of complex tasks and high-level controllers. Transportable open-source application program interface and user interface for generic humanoids has been developed for, and tested on, Boston Dynamics’ Atlas V5 and NASA’s Valkyrie R5 robots. It has proved successful for …",
-        "citations": 1,
+        "citations": 2,
         "url": "https://journals.sagepub.com/doi/abs/10.1177/1729881420921607",
         "eprint_url": "",
         "author_id": [],
@@ -42,7 +42,7 @@
         "venue": "IEEE Access",
         "year": 2019,
         "abstract": "Diabetes mellitus is a serious chronic disease that affects millions of people worldwide. In patients with diabetes, ulcers occur frequently and heal slowly. Grading and staging of diabetic ulcers is the first step of effective treatment and wound depth and granulation tissue amount are two important indicators of wound healing progress. However, wound depths and granulation tissue amount of different severities can visually appear quite similar, making accurate machine learning classification challenging. In this paper, we innovatively adopted the fine-grained classification idea for diabetic wound grading by using a Bilinear CNN (Bi-CNN) architecture to deal with highly similar images of five grades. Wound area extraction, sharpening, resizing and augmentation were used to pre-process images before being input to the Bi-CNN. Innovative modifications of the generic Bi-CNN network architecture are explored to …",
-        "citations": 39,
+        "citations": 42,
         "url": "https://ieeexplore.ieee.org/abstract/document/8931677/",
         "eprint_url": "",
         "author_id": [],
@@ -104,7 +104,7 @@
         "venue": "Unknown Venue",
         "year": 2014,
         "abstract": "This paper discusses the design and implementation of a portable oscilloscope using a Programmable System on Chip (PSoC). The main aim of this paper is to highlight the use and need of a low cost system for student applications. The system was implemented using a PSoC 4 device and a Nokia 5110 LCD screen. Performance metrics were measured and compared to show tradeoffs between cost and performance.",
-        "citations": 14,
+        "citations": 15,
         "url": "https://ieeexplore.ieee.org/abstract/document/7230746/",
         "eprint_url": "",
         "author_id": [],
@@ -129,9 +129,9 @@
         "authors": "Rasika Kangutkar and Ameya Wagh",
         "venue": "Unknown Venue",
         "year": 2024,
-        "abstract": "B60W—CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT",
+        "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
         "citations": 0,
-        "url": "https://patents.google.com/patent/US20240317222A1/en",
+        "url": "https://patents.google.com/patent/US12509074B2/en",
         "eprint_url": "",
         "author_id": [],
         "pub_type": "article"
@@ -151,7 +151,20 @@
         "pub_type": "article"
       }
     ],
-    "other": []
+    "other": [
+      {
+        "title": "Distributed approach for implementation of A3c on TORCS",
+        "authors": "Ameya Wagh and Shakthi Duraimurugan and Sanket Gujar",
+        "venue": "Unknown Venue",
+        "year": 2019,
+        "abstract": "The performance of a reinforcement learning agent depends on its exploration by interacting with the environment. A popular approach to increase the exploration is to implement Asynchronous advantage actor critic algorithm, but it requires a multi-core high-performance CPU which can multi-thread environment processes. We propose a simple scalable distributed framework to implement the Asynchronous advantage actorcritic reinforcement algorithm on multiple single or dual core systems. This framework was experimented on the open source car racing simulator-TORCS. Based on the results obtained, we conclude that a distributed approach with a high number of agents gives more exploration to the agent and reduces the training time than a single agent running on a single system. Furthermore, the proposed framework can be experimented with other deep reinforcement learning algorithms.",
+        "citations": 1,
+        "url": "https://sanketgujar.github.io/ext/pap/pdfs/A3C.pdf",
+        "eprint_url": "",
+        "author_id": [],
+        "pub_type": "article"
+      }
+    ]
   },
   "all_publications": [
     {
@@ -160,7 +173,7 @@
       "venue": "IEEE Access",
       "year": 2020,
       "abstract": "Smartphone wound image analysis has recently emerged as a viable way to assess healing progress and provide actionable feedback to patients and caregivers between hospital appointments. Segmentation is a key image analysis step, after which attributes of the wound segment (e.g. wound area and tissue composition) can be analyzed. The Associated Hierarchical Random Field (AHRF) formulates the image segmentation problem as a graph optimization problem. Handcrafted features are extracted, which are then classified using machine learning classifiers. More recently deep learning approaches have emerged and demonstrated superior performance for a wide range of image analysis tasks. FCN, U-Net and DeepLabV3 are Convolutional Neural Networks used for semantic segmentation. While in separate experiments each of these methods have shown promising results, no prior work has …",
-      "citations": 45,
+      "citations": 46,
       "url": "https://ieeexplore.ieee.org/abstract/document/9160940/",
       "eprint_url": "",
       "author_id": [],
@@ -172,7 +185,7 @@
       "venue": "IEEE Access",
       "year": 2019,
       "abstract": "Diabetes mellitus is a serious chronic disease that affects millions of people worldwide. In patients with diabetes, ulcers occur frequently and heal slowly. Grading and staging of diabetic ulcers is the first step of effective treatment and wound depth and granulation tissue amount are two important indicators of wound healing progress. However, wound depths and granulation tissue amount of different severities can visually appear quite similar, making accurate machine learning classification challenging. In this paper, we innovatively adopted the fine-grained classification idea for diabetic wound grading by using a Bilinear CNN (Bi-CNN) architecture to deal with highly similar images of five grades. Wound area extraction, sharpening, resizing and augmentation were used to pre-process images before being input to the Bi-CNN. Innovative modifications of the generic Bi-CNN network architecture are explored to …",
-      "citations": 39,
+      "citations": 42,
       "url": "https://ieeexplore.ieee.org/abstract/document/8931677/",
       "eprint_url": "",
       "author_id": [],
@@ -184,7 +197,7 @@
       "venue": "Unknown Venue",
       "year": 2014,
       "abstract": "This paper discusses the design and implementation of a portable oscilloscope using a Programmable System on Chip (PSoC). The main aim of this paper is to highlight the use and need of a low cost system for student applications. The system was implemented using a PSoC 4 device and a Nokia 5110 LCD screen. Performance metrics were measured and compared to show tradeoffs between cost and performance.",
-      "citations": 14,
+      "citations": 15,
       "url": "https://ieeexplore.ieee.org/abstract/document/7230746/",
       "eprint_url": "",
       "author_id": [],
@@ -232,8 +245,20 @@
       "venue": "International Journal of Advanced Robotic Systems",
       "year": 2020,
       "abstract": "Humanoid robotics is a complex and highly diverse field. Humanoid robots may have dozens of sensors and actuators that together realize complicated behaviors. Adding to the complexity is that each type of humanoid has unique application program interfaces, thus software written for one humanoid does not easily transport to others. This article introduces the transportable open-source application program interface and user interface for generic humanoids, a set of application program interfaces that simplifies the programming and operation of diverse humanoid robots. These application program interfaces allow for quick implementation of complex tasks and high-level controllers. Transportable open-source application program interface and user interface for generic humanoids has been developed for, and tested on, Boston Dynamics’ Atlas V5 and NASA’s Valkyrie R5 robots. It has proved successful for …",
-      "citations": 1,
+      "citations": 2,
       "url": "https://journals.sagepub.com/doi/abs/10.1177/1729881420921607",
+      "eprint_url": "",
+      "author_id": [],
+      "pub_type": "article"
+    },
+    {
+      "title": "Distributed approach for implementation of A3c on TORCS",
+      "authors": "Ameya Wagh and Shakthi Duraimurugan and Sanket Gujar",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "abstract": "The performance of a reinforcement learning agent depends on its exploration by interacting with the environment. A popular approach to increase the exploration is to implement Asynchronous advantage actor critic algorithm, but it requires a multi-core high-performance CPU which can multi-thread environment processes. We propose a simple scalable distributed framework to implement the Asynchronous advantage actorcritic reinforcement algorithm on multiple single or dual core systems. This framework was experimented on the open source car racing simulator-TORCS. Based on the results obtained, we conclude that a distributed approach with a high number of agents gives more exploration to the agent and reduces the training time than a single agent running on a single system. Furthermore, the proposed framework can be experimented with other deep reinforcement learning algorithms.",
+      "citations": 1,
+      "url": "https://sanketgujar.github.io/ext/pap/pdfs/A3C.pdf",
       "eprint_url": "",
       "author_id": [],
       "pub_type": "article"
@@ -243,9 +268,9 @@
       "authors": "Rasika Kangutkar and Ameya Wagh",
       "venue": "Unknown Venue",
       "year": 2024,
-      "abstract": "B60W—CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT",
+      "abstract": "A vehicle can include a first camera on a first side of the vehicle and a second camera on a second side of the vehicle opposite the first side of the vehicle. The vehicle can include a processor communicatively coupled with the first camera and the second camera. The processor can be configured to receive a first image of a first lane line on a road in which the vehicle is driving from the first camera and a second image of a second lane line on the road from the second camera; detect the first lane line from the first image and the second lane line from the second image; determine a first location of the first lane line relative to a defined location of the vehicle and a second location of the second lane line relative to the defined location of the vehicle; and execute a correction sequence.",
       "citations": 0,
-      "url": "https://patents.google.com/patent/US20240317222A1/en",
+      "url": "https://patents.google.com/patent/US12509074B2/en",
       "eprint_url": "",
       "author_id": [],
       "pub_type": "article"
